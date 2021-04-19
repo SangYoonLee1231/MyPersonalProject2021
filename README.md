@@ -1,4 +1,5 @@
-## PersonalProject   
+## MyPersonalProject2021   
+#### 2021년 제대 후 2학년 복학 전까지 방구석에서
 #### 강의을 보고 따라 만들며 작업한 개인 프로젝트를 보관하는 저장소
 
 ### pygame_project_pang (2021.03.30 ~ 2021.04.16)
