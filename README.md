@@ -8,5 +8,5 @@
 
 ### pygame_project_memory (2021.04.17 ~ 2021.04.19)
 '나도 코딩'님의 유튜브 강의를 보면서 만든 기억력 테스트 게임 소스 코드 파일 + 응용(목숨 3개 옵션 추가)   
-> [강의 영상 주소](https://youtu.be/Qsk-xsi73YA, "파이썬 코딩 무료 강의 (활용편1) - 파이썬 실전 프로젝트 | 기억력 테스트 게임, 침팬지를 이겨라")
-> > [게임 플레이 영상](https://www.youtube.com/watch?v=yvzWmZtHnuI, "")
+> [강의 영상 주소](https://youtu.be/Qsk-xsi73YA, "파이썬 코딩 무료 강의 (활용편1) - 파이썬 실전 프로젝트 | 기억력 테스트 게임, 침팬지를 이겨라")   
+> [게임 플레이 영상](https://www.youtube.com/watch?v=yvzWmZtHnuI, "")
