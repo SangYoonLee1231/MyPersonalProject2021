@@ -4,8 +4,9 @@ from random import *
 # 레벨에 맞게 설정
 def setup(level):
     # 얼마나 많은 숫자를 보여줄 것인가?
-    number_count = (level // 3) + 3
-    number_count = min(number_count, 40) # 만약 40을 초과하면 20으로 처리
+    global display_time
+    display_time = 5 - (level // 4)
+    display_time = max(display_time, 1) # 1초 미만이면 1초로 처리
 
     # 실제 화면에 grid 형태로 숫자를 랜덤으로 배치
     shuffle_grid(number_count)
