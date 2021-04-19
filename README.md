@@ -1,4 +1,5 @@
-## PythonPersonalProject   강의을 보고 따라 만들며 작업한 개인 프로젝트를 보관하는 저장소
+## PythonPersonalProject   
+강의을 보고 따라 만들며 작업한 개인 프로젝트를 보관하는 저장소
 
 ### pygame_project_pang (2021.03.30 ~ 2021.04.16)
 '나도 코딩'님의 유튜브 강의를 보면서 만든 오락실 게임 '팡' 소스 코드 파일   
