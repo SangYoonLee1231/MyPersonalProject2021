@@ -13,8 +13,8 @@
 
 ## AndroidStudio (2021.04.26 ~ 2021.XX.XX)
 '홍드로이드'님의 안드로이드 앱 개발 유튜브 강의를 클론 코딩하며 공부한 자바 소스 코드 파일(기초 문법 위주)
-> [구름 EDU 유료 강의](https://edu.goorm.io/lecture/18156/홍드로이드의-수익창출-앱-개발, "")
-> [유튜브 무료 강의 플레이리스트](https://youtube.com/playlist?list=PLC51MBz7PMyyyR2l4gGBMFMMUfYmBkZxm, "")
+> [구름 EDU 유료 강의](https://edu.goorm.io/lecture/18156/홍드로이드의-수익창출-앱-개발, "")   
+> [유튜브 무료 강의 플레이리스트](https://youtube.com/playlist?list=PLC51MBz7PMyyyR2l4gGBMFMMUfYmBkZxm, "")   
 
 ## htdocs (2021.05.12 ~ 2021.XX.XX)
 '생활 코딩 - 이고잉'님의 웹애플리케이션 개발 유튜브 강의를 클론 코딩하며 공부한 소스 코드 파일
