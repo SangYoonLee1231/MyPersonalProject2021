@@ -1,0 +1,47 @@
+# 안드로이드 스튜디오 - EditText(입력 필드), Button(버튼), TextView(텍스트 뷰)
+# + Toast 메세지, OnClick(클릭 시 수행), Intent(화면 전환) 구현
+
+package com.example.myapplication;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
+
+public class MainActivity extends AppCompatActivity {
+
+    TextView tv_title;  // 변수를 선언
+    Button btn_enter; // 버튼을 선언
+    EditText et_name;   // 에딧텍스트 뷰 변수를 선언
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        tv_title = findViewById(R.id.tv_title); // 뷰를 id를 통해 연결
+        et_name = findViewById(R.id.et_name); // 뷰를 id를 통해 연결
+        btn_enter = findViewById(R.id.btn_enter); // 뷰를 id를 통해 연결
+
+        tv_title.setOnClickListener(new View.OnClickListener() {    // 해당 뷰를 클릭할 경우 수행
+            @Override
+            public void onClick(View v) {
+                tv_title.setText("Escape Now");
+            }
+        });
+
+        btn_enter.setOnClickListener(new View.OnClickListener() {   // 해당 뷰를 클릭할 경우 수행
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, IntroActivity.class);
+                startActivity(intent);
+                Toast.makeText(MainActivity.this,et_name.getText().toString() +"들어가요", Toast.LENGTH_SHORT).show();    // 토스트 메세자를 띄운다.
+            }
+        });
+    }
+}
