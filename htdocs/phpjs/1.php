@@ -4,6 +4,7 @@
 	<meta charset="utf-8" />
 </head>
 <body>
+	<h1>php</h1>
   <?php
 		echo "Hello World ";
     echo 10+10;
